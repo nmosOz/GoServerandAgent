@@ -1,0 +1,17 @@
+#Build the docker container
+>docker build main.go  
+
+#Run the image 
+docker run main.go 
+
+#Show the docker image running
+docker ps
+
+#Show the docker logs
+docker logs 74b3beal17015
+
+#Stop the image
+docker stop 74b3beal17015
+
+#Show the stopped image 
+docker ps -a
