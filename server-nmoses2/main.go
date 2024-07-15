@@ -11,7 +11,6 @@ import (
 
 	"github.com/gorilla/mux"
 
-	loggly "github.com/jamespearly/loggly"
 
 	//Amazon SDK imports
 	"github.com/aws/aws-sdk-go/aws"
